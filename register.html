@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member Registration | Shohojugi Youth Foundation</title>
+    <link rel="stylesheet" href="register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="registration-form">
+      <h2>Become a Member</h2>
+      <p>Join our foundation and be a part of meaningful change.</p>
+
+      <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="blood">Blood Group:</label>
+        <select id="blood" name="blood">
+          <option value="">Select</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+        </select>
+
+        <label for="occupation">Occupation:</label>
+        <select id="occupation" name="occupation">
+          <option value="">Select</option>
+          <option value="Student">Student</option>
+          <option value="Businessman">Businessman</option>
+          <option value="Job Holder">Job Holder</option>
+        </select>
+
+        <label for="institution">Institution Name:</label>
+        <input type="text" id="institution" name="institution" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="address">Full Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <label for="fee">Registration Fee:</label>
+        <button type="button" class="fee-btn">Pay Now</button>
+
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          required
+        />
+
+        <button type="submit" class="submit-btn">Register</button>
+      </form>
+    </section>
+  </body>
+</html>
