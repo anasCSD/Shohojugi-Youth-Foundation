@@ -1,0 +1,103 @@
+/* Dashboard Page Styles */
+.dashboard {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+header {
+    background-color: #0077b6;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* User Profile */
+.profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #0077b6;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    color: #0077b6;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Payment Status */
+.payment-status {
+    background-color: #f0f9ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.payment-status .paid {
+    color: green;
+    font-weight: bold;
+}
+
+.pay-btn {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Opinion Section */
+.opinion {
+    margin-top: 20px;
+}
+
+.opinion textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.submit-btn {
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+}
